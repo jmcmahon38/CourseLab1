@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">CourseLab1</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="loginHint">Enter a user name</string>
+    <string name="loginButtonText">Login</string>
+
+    <string name="errMessageLogin">Invalid login. Please retry.</string>
+    <string name="errMessagePassword">Invalid password. Please retry.</string>
+<!-- activity_main_class    -->
+    <string name="txtFirstName">First Name</string>
+    <string name="txtLastName">Last Name</string>
+    <string name="txtPhone">Phone</string>
+    <string name="txtDOB">Date of Birth</string>
+    <string-array name="txtMonth">
+        <item>JAN</item>
+        <item>FEB</item>
+        <item>MAR</item>
+        <item>APR</item>
+        <item>MAY</item>
+        <item>JUN</item>
+        <item>JUL</item>
+        <item>AUG</item>
+        <item>SEP</item>
+        <item>OCT</item>
+        <item>NOV</item>
+        <item>DEC</item>
+    </string-array>
+    <string name="txtDay">Day</string>
+    <string name="txtYear">Year</string>
+    <string name="txtCert">Certificate</string>
+    <string name="txtTwoYr">Associates Degree</string>
+    <string name="txtMajor">Major</string>
+    <string name="txtNext">Next</string>
+    <string-array name="lstCertificate">
+        <item>Android Certificate</item>
+        <item>iOS Mobile Certificate</item>
+    </string-array>
+    <string-array name="lstMajor">
+        <item>Digital Media</item>
+        <item>Mobile Application Development</item>
+        <item>Web Development</item>
+    </string-array>
+<!--    // activity_choose_class-->
+    <string name="btnNext">Next</string>
+    <string name="sectionClass">Select your class and time slot:</string>
+
+    <string name="class1">MAD-107: iOS I</string>
+    <string name="class2">MAD-155: Android II</string>
+    <string name="class3">MAD-157: iOS II</string>
+    <string name="class4">MAD-257: Capstone Mobile Class</string>
+
+    <string name="timeRb1">T/TH 12:00 PM - 1:50 PM</string>
+    <string name="timeRb2">M/W 10:00 AM - 11:50 AM</string>
+    <string name="timeRb3">T/TH 12"00 PM - 1:50 PM</string>
+    <string name="timeRb4">T/TH 4:00 PM - 5:50 PM</string>
+    <string name="timeRb5">F 9:00 AM - 12:50 PM</string>
+    <string name="timeRb6">M/W 12:00 PM - 1:50 PM</string>
+
+    <string name="sumName">Student:</string>
+    <string name="sumPhone">Phone:</string>
+    <string name="sumBirth">Birthday:</string>
+    <string name="sumDegree">Degree Plan:</string>
+    <string name="sumMajor">Major</string>
+    <string name="sumNext">Next Semester</string>
+
+<!--    // summary screen-->
+    <string name="labelStudent">Sudent</string>
+    <string name="labelPhone">Phone</string>
+    <string name="labelBirthdate">Birthdate</string>
+    <string name="labelDegreePlan">Degree Plan</string>
+    <string name="labelMajor">Major</string>
+    <string name="labelNextSem">Next Semester</string>
+</resources>
