@@ -55,14 +55,14 @@ class MainClassList : AppCompatActivity() {
                 nextScreen.putExtra("FirstName", firstName.text.toString())
                 nextScreen.putExtra("LastName", lastName.text.toString())
                 nextScreen.putExtra("Phone", phone.text.toString())
-                nextScreen.putExtra("Birthdate", doBirth)
+                nextScreen.putExtra("BirthDate", doBirth)
 
                 if (spnDegree.visibility == View.VISIBLE) {
-                    nextScreen.putExtra("isDegreeCert", "Degree")
-                    nextScreen.putExtra("degreeCert", spnDegree.selectedItem.toString())
+                    nextScreen.putExtra("IsDegreeCert", "Degree")
+                    nextScreen.putExtra("DegreeCert", spnDegree.selectedItem.toString())
                 } else {
-                    nextScreen.putExtra("isDegreeCert", "Certificate")
-                    nextScreen.putExtra("degreeCert", spnCertificate.selectedItem.toString())
+                    nextScreen.putExtra("IsDegreeCert", "Certificate")
+                    nextScreen.putExtra("DegreeCert", spnCertificate.selectedItem.toString())
                 }
                 // Start Activity
                 startActivity(nextScreen)

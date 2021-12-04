@@ -128,7 +128,7 @@ class ChooseClass : AppCompatActivity() {
                     putExtra("LastName", lastName)
                     putExtra("Phone", phone)
                     putExtra("BirthDate", birthDate)
-                    putExtra("isDegreeCert", isDegreeCert)
+                    putExtra("IsDegreeCert", isDegreeCert)
                     putExtra("Class1", ctv1Text)
                     putExtra("Selected1", radio1Text)
                     putExtra("Class2", ctv2Text)
@@ -137,7 +137,7 @@ class ChooseClass : AppCompatActivity() {
                     putExtra("Selected3", radio3Text)
                     putExtra("Class4", ctv4Text)
                     putExtra("Selected4", radio4Text)
-                    putExtra("degreeCert", degreeCertification)
+                    putExtra("DegreeCert", degreeCertification)
                 }
                 startActivity(nextScreen2)
 
